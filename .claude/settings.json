@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf src/data/cache/*)",
+      "Bash(php -l *)",
+      "Bash(php vendor/bin/codecept *)",
+      "Bash(npm run *)",
+      "Bash(composer *)",
+      "Bash(mkdir -p *)",
+      "Bash(cp -r *)"
+    ]
+  }
+}
